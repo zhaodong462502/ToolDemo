@@ -28,7 +28,7 @@ public class StreamFlatMapDemo {
                                     }
                             );
 
-                        }).toList();
+                        }).collect(Collectors.toList());
 
         System.out.println(scoreList.size());
 
