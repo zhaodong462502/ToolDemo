@@ -1,6 +1,5 @@
 package com.enums;
 
-import org.apache.commons.lang3.StringUtils;
 
 public enum FlightMethod {
     air_query("FlightSearchService"),//列表查询
